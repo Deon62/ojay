@@ -65,7 +65,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #2C3E50;
+    color: #333333;
 }
 
 /* Removed nav-link underline effects */
@@ -973,6 +973,32 @@ body {
 .secondary-button:focus,
 .nav-link:focus {
     outline: none;
+}
+
+/* Remove all possible highlighting effects from nav links */
+.nav-link:active,
+.nav-link:focus,
+.nav-link:visited {
+    color: #333333;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link:active {
+    color: #333333;
+    background-color: transparent;
+}
+
+/* Remove all browser default highlighting */
+.nav-link {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* High contrast mode support */
