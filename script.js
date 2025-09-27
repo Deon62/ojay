@@ -68,32 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Parallax effect removed for stable image positioning
 
-// Typing animation for hero title
-function typeWriter(element, text, speed = 100) {
-    let i = 0;
-    element.innerHTML = '';
-    
-    function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-    
-    type();
-}
-
-// Initialize typing animation when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    const nameElement = document.querySelector('.name');
-    if (nameElement) {
-        const originalText = nameElement.textContent;
-        setTimeout(() => {
-            typeWriter(nameElement, originalText, 150);
-        }, 500);
-    }
-});
+// Typing animation removed - text displays normally
 
 // Add hover effect to skill cards
 document.querySelectorAll('.skill-card').forEach(card => {
