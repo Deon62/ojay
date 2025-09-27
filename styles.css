@@ -182,9 +182,19 @@ body {
     font-size: 1.6rem;
     font-weight: 600;
     color: #3AAFA9;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
     text-transform: none;
     letter-spacing: 0.5px;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    color: #2C3E50;
+    line-height: 1.6;
+    opacity: 0.9;
+    font-style: italic;
+    max-width: 500px;
+    margin-bottom: 2rem;
 }
 
 .hero-tagline {
@@ -765,6 +775,12 @@ body {
         font-size: 1.4rem;
     }
     
+    .hero-description {
+        font-size: 1rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    
     .subtitle {
         font-size: 1.2rem;
     }
@@ -806,8 +822,10 @@ body {
     }
     
     .skill-icon {
-        margin-right: 0;
+        margin: 0 auto 1rem;
         flex-shrink: 0;
+        width: 60px;
+        height: 60px;
     }
     
     .about-grid {
@@ -885,6 +903,12 @@ body {
         font-size: 1rem;
     }
     
+    .hero-description {
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    
     .hero-tagline {
         font-size: 0.95rem;
         text-align: center;
@@ -938,10 +962,10 @@ body {
     }
     
     .skill-icon {
-        margin-right: 0;
+        margin: 0 auto 0.8rem;
         flex-shrink: 0;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     
     .section-title {
