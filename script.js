@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.style.backgroundColor = 'rgba(245, 245, 240, 0.98)';
-        navbar.style.boxShadow = '0 2px 20px rgba(44, 62, 80, 0.1)';
+        navbar.style.boxShadow = 'none';
     } else {
         navbar.style.backgroundColor = 'rgba(245, 245, 240, 0.95)';
         navbar.style.boxShadow = 'none';
@@ -189,7 +189,7 @@ const debouncedScrollHandler = debounce(() => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.style.backgroundColor = 'rgba(245, 245, 240, 0.98)';
-        navbar.style.boxShadow = '0 2px 20px rgba(44, 62, 80, 0.1)';
+        navbar.style.boxShadow = 'none';
     } else {
         navbar.style.backgroundColor = 'rgba(245, 245, 240, 0.95)';
         navbar.style.boxShadow = 'none';
