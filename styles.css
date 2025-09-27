@@ -517,6 +517,36 @@ body {
     height: 24px;
 }
 
+.resume-download {
+    margin-top: 2rem;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #2C3E50;
+    color: #F5F5F0;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid #2C3E50;
+}
+
+.download-btn:hover {
+    background-color: #B5CDA3;
+    color: #2C3E50;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(44, 62, 80, 0.3);
+}
+
+.download-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
